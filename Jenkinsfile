@@ -3,8 +3,6 @@ pipeline {
 
      tools {
         maven 'localmvn'
-    }
-     tools {
         jdk 'localjdk'
     }
 
