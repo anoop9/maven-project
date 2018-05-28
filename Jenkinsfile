@@ -4,6 +4,9 @@ pipeline {
      tools {
         maven 'localmvn'
     }
+     tools {
+        java 'localjdk'
+    }
 
     stages {
         stage('Build') {
